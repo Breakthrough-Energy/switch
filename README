@@ -1,3 +1,15 @@
+------
+
+For using docker with gurobi on kaspar/wecc
+
+- Put gurobi license in gurobi_license/
+- docker-compose up -d switch
+- docker run -it switch bash
+
+This method could be optimized but works for now.
+
+------
+
 This contains version 2 of the Switch electricity planning model.
 This optimization model is modular and can be used with varying levels
 of complexity. Look in the examples directory for demonstrations of
