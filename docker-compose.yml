@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  switch:
+    build: .
+    container_name: switch
+    hostname: switch
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    volumes:
+      - ./gurobi_license:/usr/share/gurobi_license
